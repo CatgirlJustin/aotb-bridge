@@ -31,7 +31,7 @@ class MinecraftManager extends CommunicationBridge {
     return mineflayer.createBot({
       host: this.app.config.server.host ?? 'mc.hypixel.io',
       port: this.app.config.server.port ?? 25565,
-      username: 'Bridge',
+      username: 'CatgirlJustin',
       auth: process.env['NODE_ENV'] == 'DEVELOPMENT' ? undefined : 'microsoft',
       version: process.env['NODE_ENV'] == 'DEVELOPMENT' ? undefined : '1.16.5',
       hideErrors: false, // Prevent an insane amount of spam caused by watchdog, unfortunately this seems to be the only way
