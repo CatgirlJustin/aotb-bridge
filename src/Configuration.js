@@ -7,7 +7,7 @@ class Configuration {
       port: 25565,
     },
     discord: {
-      token: '',
+      token: 'ODk5Mzc2NDQ3ODc2MTI0NzEz.G4ksxD.I-3UGARwT9gsyMEbU9z-cY5JJVfxZBzJc2f2GI',
       channels: {
         guild: '',
         officer: '',
